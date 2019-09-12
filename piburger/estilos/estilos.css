@@ -396,6 +396,7 @@ blockquote{
 #detalle h2,
 #perfil h2,
 #carrito h2,
+#realizar_pedidos h2,
 #pedido_detalle h2{
     position: absolute;
     top:200px;

@@ -14,7 +14,7 @@
       WHERE usuario_id=$user;
 TARJETAS;
 
-   $aTc=Hacer_query($query, 'select', 2);
+   $aTc=@Hacer_query($query, 'select', 2);
 
    $query=<<<TARJETAS
       SELECT domicilios.id, calle, nro, cd, prov
